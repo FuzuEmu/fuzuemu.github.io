@@ -1,1 +1,1 @@
-# fuzuemu.github.io
+# Website for Fuzu Emulator
