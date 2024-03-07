@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scrolling */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  /* Gradient background */
+  color: #fff;
+  /* White text color */
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+  /* Adjust title font size */
+  opacity: 0;
+  /* Hide title initially */
+  transition: opacity 1s;
+  /* Smooth transition animation */
+  margin-top: 20vh;
+  /* Center title vertically */
+}
+
+h1.show {
+  opacity: 1;
+  /* Show title */
+}
+
+main {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  /* Light background color with transparency */
+  padding: 40px;
+  /* Add more padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  margin: 40px auto;
+  /* Center main content and add more margin */
+  text-align: center;
+  /* Center the content */
+}
+
+footer {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  /* Light background color with transparency */
+  color: #444;
+  /* Dark text color */
+  text-align: center;
+  padding: 40px 0;
+  /* Add more padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  margin: 40px auto;
+  /* Center footer and add more margin */
+  max-width: 800px;
+  /* Increase the maximum width of the footer */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* Add a subtle shadow */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 15px 30px;
+  /* Increase button padding */
+  margin: 0 15px;
+  /* Increase button margin */
+  background-color: #e74c3c;
+  /* Red button color */
+  color: #fff;
+  /* White text color */
+  border: 1px solid #af1d1d;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Smooth transition animation */
+}
+
+button:hover {
+  background-color: #c0392b;
+  /* Darker red button color on hover */
+}
